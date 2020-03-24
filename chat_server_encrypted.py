@@ -14,13 +14,12 @@ encryptor = Fernet(key)
 
 host='0.0.0.0'
 port=1
-print(colored("  __   _   _    ___    _____","blue"))
-time.sleep(0.5)
-print(colored(" /__| | |_| |  / _ \  |_   _|    ","blue"))
-time.sleep(0.5)
-print(colored(" |__  |  _  | | /_\ |   | |","blue"))
-time.sleep(0.5)
-print(colored(" \__| |_| |_| |_| |_|   |_|   ANONYMOUSLY","blue"))
+banner = '''
+░█▀▀░█░█░█▀█░▀█▀░░░░░█▀▀░█▀▀░█▀▄░█░█░█▀▀░█▀▄
+░█░░░█▀█░█▀█░░█░░░░░░▀▀█░█▀▀░█▀▄░▀▄▀░█▀▀░█▀▄
+░▀▀▀░▀░▀░▀░▀░░▀░░▀▀▀░▀▀▀░▀▀▀░▀░▀░░▀░░▀▀▀░▀░▀
+'''
+print(colored(banner,"yellow"))
 time.sleep(0.5)
 print(" ")
 print(colored("Author--> Romeos CyberGypsy","yellow"))
